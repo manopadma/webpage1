@@ -33,14 +33,13 @@
     display: flex;
     gap: 100px;
     background-color: lightblue;
-    height: 1096px;
-    width: 935px;
-    margin-left: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .second1 {
     font-family: "Times New Roman", Times, serif;
-    margin-left: 90px;
-    margin-top: 70px;
+
   }
   
   .button1 {
@@ -49,10 +48,7 @@
         padding: 25px 29px;
         border: none;
   }
-  .image1 {
-    height: 200px;
-    width: 146px;
-  }
+
   /* third division */
   .main {
     display: flex;
@@ -147,4 +143,12 @@
   }
   .box{
     display: grid;
+  }
+  
+
+  /*  */
+  .new-arraival{
+    width: 85%;
+    margin: auto;
+    max-width: 1200px;
   }
